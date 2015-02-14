@@ -3,3 +3,5 @@
 import UIKit
 
 var str = "Hello, swift!!!"
+
+var int = 8;
