@@ -6,6 +6,10 @@ var str = "Hello, playground"
 
 var hello = "Hello"; var playground = "playground"
 
+
+print(str)
+print(hello, playground, separator: "_", terminator: "")
+
 //: 0 to 64
 
 for i in 0..<64{
@@ -14,3 +18,6 @@ for i in 0..<64{
 }
 
 //: [Next](@next)
+
+
+ 
