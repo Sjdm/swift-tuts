@@ -6,11 +6,10 @@ var colorOptions = ["red", "green", "black"]
 
 
 //Declare var array of string
-
 var flavors : [String]
 flavors = ["Vanilla", "Strawberry", "Chocolate"]
 
-println ("the first flavor is \(flavors[0])")
+print ("the first flavor is \(flavors[0])")
 
 //adding to the end of an arry
 
@@ -26,13 +25,13 @@ flavors.removeLast()
 flavors.removeAtIndex(3)
 
 // .count for number of items
-println("the array has \(daysInMonth.count) items")
+print ("the array has \(daysInMonth.count) items")
 
 if daysInMonth.isEmpty{
-    println("there is nothing in the array")
+    print("there is nothing in the array")
 }
 //print out months
 for month in daysInMonth {
-    println(month)
+    print(month)
 }
 
